@@ -1,9 +1,10 @@
 module github.com/antremis/server
 
-go 1.23.2
+go 1.23.0
 
 require (
 	github.com/go-chi/chi/v5 v5.1.0
+	github.com/go-chi/cors v1.2.1
 	github.com/google/uuid v1.6.0
 	golang.org/x/oauth2 v0.23.0
 	google.golang.org/api v0.201.0
